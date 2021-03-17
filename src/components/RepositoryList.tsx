@@ -18,7 +18,7 @@ export const RepositoryList = () => {
 
       <ul>
         {repositories.map((repository) => (
-          <RepositoryItem repository={repository} key={repository.name} />
+          <RepositoryItem repository={repository} key={repository?.name} />
         ))}
       </ul>
     </section>
